@@ -3,14 +3,15 @@ import FirstComponent, { First1 } from './components/learning-examples/FirstComp
 import SecondComponent from './components/learning-examples/SecondC'
 import ThirdComponent from './components/learning-examples/ThirdC'
 import Counter from './components/counter/Counter'
-
+import ToDoAppComponent from './components/todo/ToDoApp'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    <Counter></Counter>
+    {/*<Counter></Counter>*/}
+    <ToDoAppComponent></ToDoAppComponent>
     </div>
   );
 }
